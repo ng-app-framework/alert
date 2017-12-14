@@ -1,4 +1,4 @@
-import {AlertProxy} from "../../src/app/Service/Interface/AlertProxy";
+import {AlertProxy} from "../../src/lib/Service/Interface/AlertProxy";
 
 export class MessageServiceSpy implements AlertProxy {
 

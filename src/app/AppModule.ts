@@ -1,8 +1,8 @@
 import {Component, NgModule} from "@angular/core";
 import {BrowserModule} from "@angular/platform-browser";
 import {CommonModule} from "@angular/common";
-import {NgAlertModule} from "./NgAlertModule";
-import {ToastProxy} from "./Service/Impl/ToastProxy";
+import {NgAlertModule} from "../lib/NgAlertModule";
+import {ToastProxy} from "../lib/Service/Impl/ToastProxy";
 
 @Component({
     selector: 'app',

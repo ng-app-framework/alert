@@ -1,5 +1,5 @@
 import {MessageServiceSpy} from "../Mock/MessageServiceSpy";
-import {ToastProxy} from "../../src/app/Service/Impl/ToastProxy";
+import {ToastProxy} from "../../src/lib/Service/Impl/ToastProxy";
 
 describe('Module: Alert', () => {
     describe('Class: ToastProxy', () => {
