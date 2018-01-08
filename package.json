@@ -62,6 +62,7 @@
     "$schema": "./node_modules/ng-packagr/package.schema.json",
     "ngPackage": {
         "lib": {
+            "name": "ng-app-alert",
             "entryFile": "index.ts"
         }
     }
