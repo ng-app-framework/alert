@@ -1,9 +1,9 @@
-import {NgModule} from '@angular/core';
-import {CommonModule} from "@angular/common";
+import {NgModule}                           from '@angular/core';
+import {CommonModule}                       from "@angular/common";
 import {ToastrModule, ToastContainerModule} from "ngx-toastr";
-import {ToastProxy} from "./Service/Impl/ToastProxy";
-import {AlertProxy} from "./Service/Interface/AlertProxy";
-import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
+import {ToastProxy}                         from "./Service/Impl/ToastProxy";
+import {AlertProxy}                         from "./Service/Interface/AlertProxy";
+import {BrowserAnimationsModule}            from "@angular/platform-browser/animations";
 
 @NgModule({
     imports  : [
@@ -22,4 +22,7 @@ import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 })
 export class NgAlertModule {
 
+    constructor(alert: AlertProxy) {
+        window['$alert'] = alert;
+    }
 }
